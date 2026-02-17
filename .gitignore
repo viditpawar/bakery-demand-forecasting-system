@@ -1,10 +1,23 @@
 __pycache__/
 *.pyc
 .DS_Store
-.env
+
+# Environments
 venv/
 .venv/
-*.log
+
+# Local configs / secrets
+.env
+
+# Data / outputs
+data/
+outputs/
+*.csv
+*.parquet
+
+# Model artifacts
 *.pkl
 *.joblib
-data/
+
+# Logs
+*.log
